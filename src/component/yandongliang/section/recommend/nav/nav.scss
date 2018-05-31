@@ -1,0 +1,72 @@
+.nav{
+    width:100%;
+    height:3.23rem;
+    background: #fff;
+    .nav_footer{
+        width:100%;
+        height:1.08rem;
+        display: flex;
+        align-items: center;
+        li{
+            width:25%;
+            img{
+                width:100%;
+                height:85%;
+            }
+        }
+    }
+    .nav_youhu{
+        width:100%;
+        height:0.65rem;
+        display: flex;
+        li{
+           width:50%;
+           height:100%;
+           box-sizing: border-box;
+           img{
+               width:100%;
+               height:100%;
+           } 
+        }
+        li:first-child{
+            padding-right:0.05rem;
+        }
+        li:last{
+            padding-left:0.05rem;
+        }
+    }
+    .nav_bg_img{
+        width:100%;
+        height:1,3rem;
+        box-sizing: border-box;
+        padding:0 0.08rem;
+        position: relative;
+        img{
+            width:100%;
+            height:100%;
+        }
+        .content{
+            width:100%;
+            height:100%;
+            position: absolute;
+            top:0;
+            left:0;
+            color:#fff;
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            font-size:0.14rem;
+            .countDown{
+                padding-top:0.08rem;
+                display: flex;
+                justify-content: flex-end;
+                padding-right:0.18rem;
+            }
+            .nav_shop{
+                height:1.06rem;
+                box-sizing: border-box;
+                padding:0 0.08rem;
+            }
+        }
+    }
+}

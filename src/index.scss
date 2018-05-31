@@ -4,8 +4,9 @@
 body,h1,h3,h2,h4,h5,h6,p,dl,dd,ul,li,ol,td,form,input,fieldset,legend{
     margin:0; padding:0;
 }  
-html{
+html,body{
 	height:100%;
+	width:100%;
 
 }
 li{list-style:none;}
@@ -40,3 +41,6 @@ table{border-collapse:collapse;}
 .fl{float:left;}
 
 .fr{float:right;}
+
+
+
