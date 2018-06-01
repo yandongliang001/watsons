@@ -1,0 +1,100 @@
+.loginheader{
+    width:100%;
+    height:0.4rem;
+    border-bottom: 1px solid #fbfbfb;
+    box-sizing: border-box;
+    padding-left:0.12rem;
+    i{
+         float:left;
+         line-height: 0.4rem;
+         width:40%
+    }
+    div{ 
+        float:left;
+        width:60%;
+        line-height: 0.4rem;
+        
+    }
+}
+.logincontent{
+    width:100%;
+    padding-left:0.23rem;
+    color:#919090;
+    p{
+        width:100%;
+        height:0.2rem;
+        margin-top:0.15rem;
+        line-height: 0.28rem;
+        font-size:14px;
+        margin-bottom:0.1rem;
+        clear:both;
+      
+        i{
+            margin-right:5px;
+        }
+        
+    }
+    input{
+        outline: none;
+        width:1.8rem;
+        height:0.47rem;
+        background:#fcfcfc;
+        margin-bottom: 0.15rem;
+        border: 1px solid #f5f4f4;
+        border-radius:5px;
+        padding-left:0.13rem;  
+        float:left;         
+    }
+    .phonenum{
+        width:3.15rem;
+    }
+    
+    div{
+         float:left;
+        .phone{
+            display:inline-block;
+            width:0.87rem;
+            height:0.45rem;
+            margin-left: 0.2rem;
+            background:#ff6692;
+            border-radius: 0.05rem;
+            text-align: center;
+            line-height:0.47rem;
+             float:left;
+             color:#fff;
+        }
+        .yanzheng{
+            display:inline-block;
+            width:0.87rem;
+            height:0.45rem;
+            margin-left: 0.2rem;
+            background:url(img/yanzheng-bg.gif) repeat center;
+            border-radius: 0.05rem;
+            text-align: center;
+            line-height:0.47rem;
+            float:left;
+            color:#a84342;
+            font-size:22px;
+            font-weight: bold;
+            
+        }
+    }
+    p{
+         .icon-xieyixuanzhong{
+             color:#3dcec0;
+         }
+         margin-top:0.2rem;
+    }
+   
+   button{
+       width:1.62rem;
+       height:0.4rem;
+       background:#ff6692;
+      border:none;
+      border-radius: 0.2rem;
+      color:#fff;
+      margin-left:20%;
+      margin-top:0.2rem;
+   } 
+   
+}
